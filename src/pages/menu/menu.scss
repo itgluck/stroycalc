@@ -1,0 +1,105 @@
+.logo {
+    width: 80%;
+    border: 0px;
+    margin: 1.5em auto;
+}
+
+.mainMenu div.scroll-content {
+    cursor: pointer;
+    display: table;
+    font-size: 1.2rem;
+    line-height: 4rem;
+    position: relative;
+    border-top: 0px;
+    text-transform: uppercase;
+    width: 100%;
+    font-variant: small-caps;
+    text-align: center;
+}
+.mainMenu .input-wrapper {
+    max-height: 2em;
+}
+.item {
+    padding-left: 1.2em;
+    color: $primary;
+}
+.item-md.item-block .item-inner {
+    padding-right: 8px;
+    border-bottom: none; 
+}
+.item-md ion-icon[item-left] + .item-inner, .item-md ion-icon[item-left] + .item-input, .item-md ion-icon[item-start] + .item-inner, .item-md ion-icon[item-start] + .item-input {
+    margin-left: 16px;
+    font-size: 3rem;
+}
+@media only screen and (max-width: 22em) { /* 320pixel / iPhone5 */
+.item-md ion-icon[item-left] + .item-inner, .item-md ion-icon[item-left] + .item-input, .item-md ion-icon[item-start] + .item-inner, .item-md ion-icon[item-start] + .item-input
+        {margin-left: 5px;
+            font-size: 2.2rem;
+
+        }
+
+}
+.mainMenu ion-label h2 {
+    margin: 0px;
+    font-size: 1.4rem;
+    font-weight:600; 
+}
+
+.mainMenu button {
+    height: 3.2em;
+    max-height: 160px;
+}
+
+
+.mainMenu img {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 280px;
+}
+
+ion-footer img {
+    width: 62%;
+    margin-bottom: -9px;
+}
+@media only screen and (max-width: 22em) { /* 320pixel / iPhone5 */
+    ion-footer img {
+        max-width: 56%;
+    }
+    .mainMenu ion-label h2 {
+        margin: 0px;
+        font-size: 1.42rem;
+        font-weight:600; 
+    }
+    // .mainMenu button {
+    //     height: 2rem;
+    //     margin: 0 10px;
+    //     font-weight:100; 
+    // }
+}
+@media only screen and (max-height: 40em) { /* 320pixel / iPhone5 */
+    ion-footer img {
+        max-width: 56%;
+    }
+    .mainMenu ion-label h2 {
+        margin: 0px;
+        font-size: 1.42rem;
+        font-weight:600; 
+    }
+    .mainMenu button {
+        height: 5rem;
+        font-weight:600; 
+    }
+    // .item-block {
+    // }
+
+    }
+@media only screen and (max-height: 41em) { /* 320pixel / iPhone5 */
+
+    // ion-footer img {
+    //     max-width: 68%;
+    // }
+
+    }
+ion-footer {
+    text-align: center;
+}

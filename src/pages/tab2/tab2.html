@@ -1,0 +1,44 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+
+
+    <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+          </button>
+    <ion-title>Каталог товаров</ion-title>
+   
+    <ion-buttons end>
+        <!-- <ion-label  (click)="doFrame()">Online</ion-label> -->
+        <ion-toggle checked="true" [(ngModel)]="localonline" color="child2"></ion-toggle>
+      </ion-buttons>
+      
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+<!--   
+<iframe src="https://tdstroitel.ru/catalog?" width="100%" height="100%" align="left">
+  Ваш браузер не поддерживает плавающие фреймы!
+</iframe> -->
+
+<div *ngIf="localonline;then isOnline else isOfline">12</div>
+
+<ng-template #isOfline>
+   
+  <div class="networkmsn">
+    <ion-thumbnail>
+      <img (click)="doFrame()" src="assets/img/circle.png" />
+    </ion-thumbnail>
+    Для загрузки актуальных данных необходимо подключение к сети. 
+  </div>
+</ng-template>
+
+  <ng-template #isOnline>
+    <iframe src="https://tdstroitel.ru/catalog?">
+      </iframe>
+    
+  </ng-template>
+  
+</ion-content>

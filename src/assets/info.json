@@ -1,0 +1,140 @@
+{
+    "items": [
+        {
+            "name": "Общестроительные материалы",
+            "children": [
+                {
+                    "name": "Гипсоплита и комплектующие к гипсоплите",
+                    "children": [
+                        {
+                            "name": "Гипсоплита влагостойкая",
+                            "description": "12,5х1200х2500 мм Норгипс",
+                            "price": "259.90 Р  шт.",
+                            "link": "ketchup"
+                        },
+                        {
+                            "name": "Pizza Ionic",
+                            "description": "Shank chuck tail, kevin shankle ham hock pork loin pork hamburger beef ribs.",
+                            "price": "$19.99"
+                        }
+                    ]
+                },
+                {
+                    "name": "Стеновые и кладочные материалы",
+                    "children": [
+                        {
+                            "name": "Блок вентиляционный керамический",
+                            "description": "305х250х238 мм Kerapor BVt25-2 Simpras",
+                            "price": "284.90 Р  шт."
+                        },
+                        {
+                            "name": "Pizza Ionic",
+                            "description": "Shank chuck tail, kevin shankle ham hock pork loin pork hamburger beef ribs.",
+                            "price": "$19.99"
+                        }
+                    ]
+                },
+                {
+                    "name": "Древесные плиты",
+                    "children": [
+                        {
+                            "name": "Pizza Academy",
+                            "description": "Frankfurter tail capicola cupim shankle salami, beef ribs beef boudin porchetta ball tip leberkas turkey tenderloin.",
+                            "price": "$25"
+                        },
+                        {
+                            "name": "Pizza Ionic",
+                            "description": "Shank chuck tail, kevin shankle ham hock pork loin pork hamburger beef ribs.",
+                            "price": "$19.99"
+                        }
+                    ]
+                },
+                {
+                    "name": "Смеси строительные",
+                    "description": "Pastrami pork belly ball tip andouille corned beef jerky shankle landjaeger. Chicken chuck porchetta picanha, ham brisket tenderloin venison meatloaf landjaeger jowl.",
+                    "price": "$25"
+                },
+                {
+                    "name": "Подвесной потолок",
+                    "description": "Pork chop meatloaf rump, meatball shoulder turducken alcatra doner sausage capicola pork strip steak turkey cupim leberkas.",
+                    "price": "$19.99"
+                }
+            ]
+        },
+        {
+            "name": "Pizza",
+            "children": [
+                {
+                    "name": "Traditional",
+                    "children": [
+                        {
+                            "name": "Pizza Salami",
+                            "description": "Pork chop jowl capicola porchetta, kielbasa prosciutto boudin bacon pork pig.",
+                            "price": "$10"
+                        },
+                        {
+                            "name": "Pizza Prosciutto",
+                            "description": "Pork chop pastrami landjaeger chuck brisket",
+                            "price": "$12"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gourmet",
+                    "children": [
+                        {
+                            "name": "Pizza Bombay",
+                            "description": "Pastrami ham hock ball tip, tongue ribeye chuck ham beef bresaola leberkas.",
+                            "price": "$13"
+                        },
+                        {
+                            "name": "Pizza Crazy Dog",
+                            "description": "Andouille spare ribs meatloaf swine ground round pork loin, brisket chuck bacon tongue.",
+                            "price": "$14"
+                        },
+                        {
+                            "name": "Pizza Italia",
+                            "description": "Ribeye ham t-bone, tail ground round biltong picanha sausage rump corned beef.",
+                            "price": "$11"
+                        },
+                        {
+                            "name": "Pizza Tuna",
+                            "description": "Pork chop pastrami landjaeger chuck brisket",
+                            "price": "$14"
+                        }
+                    ]
+                },
+                {
+                    "name": "Bestseller",
+                    "children": [
+                        {
+                            "name": "Pizza Academy",
+                            "description": "Frankfurter tail capicola cupim shankle salami, beef ribs beef boudin porchetta ball tip leberkas turkey tenderloin.",
+                            "price": "$25"
+                        },
+                        {
+                            "name": "Pizza Ionic",
+                            "description": "Shank chuck tail, kevin shankle ham hock pork loin pork hamburger beef ribs.",
+                            "price": "$19.99"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Drinks",
+            "children": [
+                {
+                    "name": "Special Academy Pizza",
+                    "description": " Landjaeger fatback shank frankfurter, tongue shoulder ham strip steak pancetta pork short loin corned beef short ribs biltong cow",
+                    "price": "$25"
+                },
+                {
+                    "name": "Pizza Ionic",
+                    "description": "Pork chop pastrami landjaeger chuck brisket",
+                    "price": "$19.99"
+                }
+            ]
+        }
+    ]
+}

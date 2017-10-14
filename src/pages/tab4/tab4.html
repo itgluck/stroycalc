@@ -1,0 +1,97 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+
+
+    <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+          </button>
+    <ion-title>Строительный калькулятор</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-card (click)="goCalcRoom()">
+
+    <h2>Расчет строительных объемов</h2>
+    <ion-row>
+      <ion-col>
+        <img src="assets/img/room.png">
+      </ion-col>
+      <ion-col>
+
+        <ion-item class="description">
+          <p>Площадь стен</p>
+          <p>Площадь потолка и пола</p>
+          <p>Оконные и дверные проемы</p>
+          <p>Периметр помещения</p>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+  </ion-card>
+
+  <!-- Card -->
+  <ion-card (click)="goCalcSten01()">
+    
+    <h2> Стеновые и кладочные материалы</h2>
+    <ion-row>
+      <ion-col>
+        <img src="assets/img/brick.jpg">
+      </ion-col>
+      <ion-col  text-nowrap>
+        <ion-item class="description">
+          <p>Блок газосиликатный</p>
+          <p>Кирпич огнеупорный шамотный </p>
+          <p>Кирпич лицевой керамический </p>
+          <p>Пенополистирол фасадный </p>
+          <p>Кирпич рядовой керамический </p>
+          <p>Блок вентиляционный</p>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+  
+  <!-- Card -->
+  <ion-card (click)="goCalcBrus01()">
+    <h2>
+      Пиломатериалы 
+    </h2>
+    <ion-row>
+        <ion-col>
+    <img src="assets/img/brus.jpeg" />
+    </ion-col>
+    <ion-col>
+      <ion-item class="description">
+      <p>Брус хвоя обрезной</p>
+      <p>Доска хвоя обрезная</p>
+      <p>ЕГАИС Брус</p>
+      <p>ЕГАИС Доска обрезная</p>
+    </ion-item>
+    </ion-col>
+    </ion-row>
+  </ion-card>
+  
+  <!-- Card -->
+  <ion-card (click)="goCalcOSB()">
+    <h2>
+      Лист OSB3 
+    </h2>
+    <ion-row>
+        <ion-col>
+    <img src="assets/img/OSB3.jpg" />
+    </ion-col>
+    <ion-col>
+      <ion-item class="description">
+      <p>Вес листа</p>
+      <p>Стоимость</p>
+      <p>Площадь по количеству листов</p>
+    </ion-item>
+    </ion-col>
+    </ion-row>
+  </ion-card>
+
+</ion-content>

@@ -1,0 +1,32 @@
+<ion-menu [content]="content">
+
+  <ion-header style="text-align:center;">
+    <img menuClose src="assets/img/logo.png" class='logo'>
+  </ion-header>
+
+  <ion-content class="mainMenu">
+    <ion-list>
+      <button ion-item menuClose *ngFor="let p of pages" (click)="openPage(p)">
+    <ion-icon  item-start [name]="p.icon" [color]="isActive(p)"></ion-icon>
+    <h2>{{p.title }}</h2>
+  </button>
+
+      <!-- My button -->
+      <!-- <button ion-item onclick="window.open('geo: 54.7074,20.5084?z=11', '_system', 'location=yes'); return false;">
+    <ion-icon name="pin" item-left></ion-icon><h2>Контакты</h2></button> -->
+
+      <button ion-item onclick="window.open('https://tdstroitel.ru/'); return false;">
+        <ion-icon name="globe" item-left></ion-icon><h2>Офицальный сайт</h2></button>
+      <button ion-item onclick="window.plugins.socialsharing.share('Торговый дом Строитель', 'Рекомендую приложение KLoBus39', 'img.jpg', 'https://play.google.com/store/apps/details?id=com.itgluck.klobus39')">
+        <ion-icon name="share" item-left></ion-icon><h2>Поделиться</h2>
+    </button>
+    </ion-list>
+  </ion-content>
+
+  <ion-footer>
+    <a href="tel:+74012777239"><img menuClose src="assets/img/call_me.png"></a>
+  </ion-footer>
+
+
+</ion-menu>
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>
