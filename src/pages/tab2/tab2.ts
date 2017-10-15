@@ -21,7 +21,7 @@ export class Tab2Page {
   }
   
   
-  doFrame() {
+  doFrame() { 
     // this.online=!this.online;
     // console.log('Смена обзора...');
     

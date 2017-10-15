@@ -1,7 +1,7 @@
 import { Component , ViewChild} from '@angular/core';
 import { IonicPage, NavController, NavParams, Nav } from 'ionic-angular';
 
-
+declare var window;
 export interface PageInterface {
   title: string;
   pageName: string;
@@ -25,8 +25,9 @@ export class MenuPage {
     {title: 'Новости', pageName: 'TabsPage', tabComponent: 'Tab1Page', index: 0, icon: 'home'},
     {title: 'Каталог товаров', pageName: 'TabsPage', tabComponent: 'Tab2Page', index: 1, icon: 'cart'},
     {title: 'Контакты', pageName: 'TabsPage', tabComponent: 'Tab3Page', index: 2, icon: 'people'},
-    {title: 'Строительный калькулятор', pageName: 'TabsPage', tabComponent: 'Tab4Page', index: 3, icon: 'calculator'},
+    {title: 'Калькулятор', pageName: 'TabsPage', tabComponent: 'Tab4Page', index: 3, icon: 'calculator'},
     {title: 'Поставщикам', pageName: 'AboutPage', icon: 'star'},
+    {title: 'Вакансии', pageName: 'ServisePage', icon: 'person-add'},
   ]
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
@@ -64,6 +65,9 @@ export class MenuPage {
     }
  
   }
-
+  callMe(passedNumber){
+    window.location = passedNumber;
+    console.log("Идет звонок ...")
+  }
 
 }

@@ -8,10 +8,6 @@
           </button>
     <ion-title>Контакты</ion-title>
 
-    <ion-buttons end>
-      <!-- <ion-label  (click)="doFrame()">Online</ion-label> -->
-      <ion-toggle checked="true" [(ngModel)]="test" color="child2"></ion-toggle>
-    </ion-buttons>
     
   </ion-navbar>
 
@@ -37,18 +33,21 @@
     В большинстве случаев Вам даже не придется приезжать в магазин — мы решаем вопросы покупателей дистанционно. 
   </p>
 
-  <button ion-button full>
-    Как проехать
-  </button>
-  <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1151.8200539795052!2d20.569738027550752!3d54.733544996533325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTTCsDQ0JzAwLjgiTiAyMMKwMzQnMTQuNCJF!5e0!3m2!1sru!2sru!4v1507588122695" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen>Не удалось загрузить карту</iframe> -->
-    <p>Операторы
-    Контакт-центра работают ежедневно с 08:00 до 20:00.
-  </p>
-
   <div text-center>
-
+    
     <img src="assets/img/promo.png">
   </div>
-  <p>Все официальные запросы и письма отправляйте на электронный адрес help@tdstroitel.ru или воспользуйтесь формой обратной
-    связи.</p>
+  <p>Операторы
+    Контакт-центра работают ежедневно с 08:00 до 20:00.
+  </p>
+  
+  <p>Все официальные запросы и письма отправляйте на электронный адрес <a href="mailto:help@tdstroitel.ru">help@tdstroitel.ru</a></p>
+      
+      <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1151.8200539795052!2d20.569738027550752!3d54.733544996533325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTTCsDQ0JzAwLjgiTiAyMMKwMzQnMTQuNCJF!5e0!3m2!1sru!2sru!4v1507588122695" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen>Не удалось загрузить карту</iframe> -->
+
+       <button ion-item onclick="window.open('geo: 54.7074,20.5084?z=11', '_system', 'location=yes'); return false;">
+    <ion-icon name="pin" item-left></ion-icon><h2>Показать на карте</h2></button>
+
+    <!-- <button ion-item onclick="window.open('https://tdstroitel.ru/'); return false;"> -->
+
 </ion-content>

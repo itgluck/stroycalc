@@ -15,7 +15,7 @@ export class AboutPage {
   }
 
   ionViewDidLoad() {
-    console.log('AboutPAge');
+    console.log('AboutPage');
   }
 
 }

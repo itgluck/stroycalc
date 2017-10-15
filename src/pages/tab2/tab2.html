@@ -18,27 +18,19 @@
 
 
 <ion-content>
-<!--   
-<iframe src="https://tdstroitel.ru/catalog?" width="100%" height="100%" align="left">
-  Ваш браузер не поддерживает плавающие фреймы!
-</iframe> -->
-
-<div *ngIf="localonline;then isOnline else isOfline">12</div>
-
-<ng-template #isOfline>
-   
-  <div class="networkmsn">
-    <ion-thumbnail>
-      <img (click)="doFrame()" src="assets/img/circle.png" />
-    </ion-thumbnail>
-    Для загрузки актуальных данных необходимо подключение к сети. 
-  </div>
-</ng-template>
-
+  <div *ngIf="localonline;then isOnline else isOfline"></div>
+  
+  <ng-template #isOfline>    
+    <div class="networkmsn" text-center>
+      <ion-thumbnail>
+        <img (click)="doFrame()" src="assets/img/circle.png" />
+      </ion-thumbnail>
+      Для загрузки актуальных данных необходимо подключение к сети. 
+    </div>
+  </ng-template>
+  
   <ng-template #isOnline>
-    <iframe src="https://tdstroitel.ru/catalog?">
-      </iframe>
-    
+    <iframe src="https://tdstroitel.ru/catalog?"></iframe>
   </ng-template>
   
 </ion-content>

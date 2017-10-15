@@ -34,19 +34,21 @@ $app-direction: ltr;
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #6B0000, 
-  secondary:  #2E5C99,
+  primary:    #780001, 
+  secondary:  #D42C0F,
   danger:     #f53d3d,
   light:      #F3EBEB,
   bg:         #FAFAFA,
   active:     #BA131A,
-  child:      #E0B3B3,
+  child:      #D42C0F,
   child2:     #E87065,
   hiden:     rgba(245,217,217,.5),
   dark:       #222
-);
-
-$primary: #6B0000;
+  );
+  
+  $primary: #780001;
+  // $hiden:     rgba(245,217,217,.9);
+$secondary:  #D42C0F;
 $active: #444;
 $hiden: rgba(108,0,0,.5);
 $milk: rgba(255,255,255,.2);
@@ -65,10 +67,10 @@ $milk: rgba(255,255,255,.2);
   color: $hiden;
 }
 
-.item-md p {
-  margin: 0 0 2px;
-  color: #FA7979;
-}
+// .item-md p {
+//   margin: 0 0 2px;
+//   color: #FA7979;
+// }
 
 // App Windows Variables
 // --------------------------------------------------

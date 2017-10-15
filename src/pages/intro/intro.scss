@@ -1,9 +1,10 @@
 page-intro {
+
     .center {
         text-align: center;
     }
     .swiper-pagination-bullet-active {
-        background: $primary;
+        background: $secondary;
         opacity: 1;
     }
     ion-slides {
@@ -12,6 +13,7 @@ page-intro {
     }
     .swiper-slide img {
         box-shadow: 0 -12px 26px #F1EFEF;
+        max-height: 700px;
     }
     .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
         left: 0;
@@ -24,6 +26,7 @@ page-intro {
         position: absolute;
         bottom: 2em;
         right: 2em;
+        background-color:$secondary;
         // margin: 0 auto;
     }
 }
