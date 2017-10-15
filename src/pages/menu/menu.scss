@@ -1,139 +1,131 @@
- page-menu{
-  ion-header a{
-    color:$hiden;
-    font-size: .9em;
-    text-decoration: none;
-    top: 7em;
-    position: absolute;
-    right: 3em;
+ page-menu {
+   ion-header a {
+     color: $hiden;
+     font-size: .9em;
+     text-decoration: none;
+     top: 7em;
+     position: absolute;
+     right: 3em;
+   }
+   .logo {
+     width: 80%;
+     border: 0px;
+     margin: 2em auto;
+   }
  }
-.logo {
-  width: 80%;
-  border: 0px;
-  margin: 2em auto;
-}
- }
 
-.mainMenu div.scroll-content {
-  cursor: pointer;
-  display: table;
-  font-size: 1.2rem;
-  line-height: 4rem;
-  position: relative;
-  border-top: 0px;
-  text-transform: uppercase;
-  width: 100%;
-  font-variant: small-caps;
-  text-align: center;
-}
+ .mainMenu {
+   div.scroll-content {
+     cursor: pointer;
+     display: table;
+     font-size: 1.2rem;
+     line-height: 4rem;
+     position: relative;
+     border-top: 0px;
+     text-transform: uppercase;
+     width: 100%;
+     font-variant: small-caps;
+     text-align: center;
+     font-weight: 600;
+   }
 
-.mainMenu .input-wrapper {
-  max-height: 2em;
-}
-
-.item {
-  padding-left: 1.2em;
-  color: $primary;
-}
-
-.item-md.item-block .item-inner {
-  padding-right: 8px;
-  border-bottom: none;
-}
-
-.item-md ion-icon[item-left]+.item-inner,
-.item-md ion-icon[item-left]+.item-input,
-.item-md ion-icon[item-start]+.item-inner,
-.item-md ion-icon[item-start]+.item-input {
-  margin-left: 16px;
-  font-size: 3rem;
-}
-
-.icon-md-child {
-  color: #CD1F20;
-  text-shadow: 1px 1px 2px #555;
-}
-
-@media only screen and (max-width: 22em) {
-  /* 320pixel / iPhone5 */
-  .item-md ion-icon[item-left]+.item-inner,
-  .item-md ion-icon[item-left]+.item-input,
-  .item-md ion-icon[item-start]+.item-inner,
-  .item-md ion-icon[item-start]+.item-input {
-    margin-left: 5px;
-    font-size: 2.2rem;
+   button {
+     height: 2em;
+   }
+   .item {
+     color: $primary; // height: 2em;
+   }
+   .item-md.item-block .item-inner {
+     padding-right: 8px;
+     border-bottom: none;
+   }
+   .item-md ion-icon[item-left]+.item-inner,
+   .item-md ion-icon[item-left]+.item-input,
+   .item-md ion-icon[item-start]+.item-inner,
+   .item-md ion-icon[item-start]+.item-input {
+     margin-left: 16px;
+     font-size: 2rem; // height: .5em;
+   }
+   .icon-md-child {
+     color: #CD1F20;
+     text-shadow: 1px 1px 2px #555;
+   }
+   .label-md {
+     margin: 4px 8px 4px 0;
+   }
+   ion-label h2 {
+     margin: 0px;
+     font-size: 1.4rem;
+     font-weight: 600;
+   }
+   img {
+     margin: 0 auto;
+     width: 90%;
+     max-width: 280px;
+   }
+   
   }
-}
-
-.mainMenu ion-label h2 {
-  margin: 0px;
-  font-size: 1.4rem;
-  font-weight: 600;
-}
+     ion-footer img {
+       width: 60%;
+       margin-bottom: -9px;
+     }
 
 
-.mainMenu button {
-  height: 2.6em;
-  max-height: 160px;
-}
+   @media only screen and (max-width: 22em) {
+     /* 320pixel / iPhone5 */
+     ion-footer img {
+       max-width: 56%;
+     }
+     .mainMenu ion-label h2 {
+       margin: 0px;
+       font-size: 1.2rem;
+       font-weight: 600;
+     }
+    }
 
-.mainMenu img {
-  margin: 0 auto;
-  width: 90%;
-  max-width: 280px;
-}
 
-ion-footer img {
-  width: 62%;
-  margin-bottom: -9px;
-}
-
-@media only screen and (max-width: 22em) {
-  /* 320pixel / iPhone5 */
-  ion-footer img {
-    max-width: 56%;
+     @media only screen and (max-width: 22em) {
+       /* 320pixel / iPhone5 */
+       .item-md ion-icon[item-left]+.item-inner,
+       .item-md ion-icon[item-left]+.item-input,
+       .item-md ion-icon[item-start]+.item-inner,
+       .item-md ion-icon[item-start]+.item-input {
+         margin-left: 5px;
+         font-size: 2.2rem;
+       }
+     }
+   
+   // @media only screen and (max-height: 40em) {
+   //   /* 320pixel / iPhone5 */
+   //   ion-footer img {
+   //     max-width: 56%;
+   //   }
+   //   .mainMenu ion-label h2 {
+   //     margin: 0px;
+   //     font-size: 1.42rem;
+   //     font-weight: 600;
+   //   }
+   //   .mainMenu button {
+   //     height: 5rem;
+   //     font-weight: 600;
+   //   } // .item-block {
+   //   // }
+   // }
+   @media only screen and (max-height: 630px) {
+     /* 320pixel / iPhone5 */
+    
+     .mainMenu {
+     .label-md {
+       margin: 2px 4px 2px 0;
+     }
+     button {height: 1.2em;
+    }
   }
-  .mainMenu ion-label h2 {
-    margin: 0px;
-    font-size: 1.2rem;
-    font-weight: 600;
-  } 
-
-}
-
-// @media only screen and (max-height: 40em) {
-//   /* 320pixel / iPhone5 */
-//   ion-footer img {
-//     max-width: 56%;
-//   }
-//   .mainMenu ion-label h2 {
-//     margin: 0px;
-//     font-size: 1.42rem;
-//     font-weight: 600;
-//   }
-//   .mainMenu button {
-//     height: 5rem;
-//     font-weight: 600;
-//   } // .item-block {
-//   // }
-// }
-
-@media only screen and (max-height: 630px) {
-  /* 320pixel / iPhone5 */
-  .mainMenu ion-label h2 {
-    margin: 4px auto;
-    font-size: 1.2rem;
-    font-weight: 600;
-  }
-  .mainMenu .label-md {
-    margin: 20px 8px 13px 0;
-  }
-  ion-footer img {
-    display: none;
-  }
-}
-
-ion-footer {
-  text-align: center;
-}
+     ion-footer img {
+       display: none;
+     }
+   }
+   ion-footer {
+     text-align: center;
+   }
  
