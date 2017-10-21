@@ -13,14 +13,17 @@ import 'rxjs/add/operator/map';
   templateUrl: 'tab1.html',
 })
 export class Tab1Page {
-  films: Observable<any>;
+  infoblocks: Observable<any>;
   constructor(public navCtrl: NavController, public navParams: NavParams, public modalCtrl: ModalController, public http:Http) {
-    // this.films = this.http.get('https://swapi.co/api/films').map(res => res.json());
-    this.films = this.http.get('../assets/data.json').map(res => res.json());
-    // this.films = this.http.get('http://amberregion.ru/old/news.json').map(res => res.json());
+    // this.infoblocks = this.http.get('https://swapi.co/api/infoblocks').map(res => res.json());
+    // this.infoblocks = this.http.get('https://api.myjson.com/bins/hpqdz').map(res => res.json());
+    this.infoblocks = this.http.get('https://raw.githubusercontent.com/itgluck/stroycalc/master/src/assets/data.json').map(res => res.json());
+    
+    // Local
+    // this.infoblocks = this.http.get('../assets/data.json').map(res => res.json());
 }
-  openDetails(film) {
-    this.navCtrl.push('NewsDetailPage', {film: film});
+  openDetails(promo) {
+    this.navCtrl.push('NewsDetailPage', {promo: promo});
   }
   openModal(id) {
    let modal = this.modalCtrl.create('ModalPage', id);

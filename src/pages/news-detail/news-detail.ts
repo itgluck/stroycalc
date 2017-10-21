@@ -14,9 +14,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'news-detail.html',
 })
 export class NewsDetailPage {
-film:any;
+promo:any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.film = this.navParams.get('film');
+    this.promo = this.navParams.get('promo');
   }
 
   ionViewDidLoad() {

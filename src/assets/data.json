@@ -1,149 +1,19 @@
 {
   "results": [{
-    "gender": "female",
-    "name": {
-      "title": "ms",
-      "first": "jennifer",
-      "last": "Radrigez"
-    },
-    "location": {
-      "street": "8797 alexander road",
-      "city": "salford",
-      "state": "shropshire",
-      "postcode": "Y4 6AR"
-    },
-    "email": "IT_GL.diaz@teeeest.com",
-    "login": {
-      "username": "blackrabbit404",
-      "password": "leng",
-      "salt": "7XlQmQ7p",
-      "md5": "1bb72a8012d3c23ea54af55257a08ae0",
-      "sha1": "00641904cd9f813078517b3903b4911eae84797e",
-      "sha256": "2093205de55cccf7fdf50c951b3d2b82a97be43f7efe323cfae91da7413d59a0"
-    },
-    "registered": 1382729850,
-    "dob": 104471509,
-    "phone": "022 0452 1985",
-    "cell": "0700-461-760",
-    "id": {
-      "name": "NINO",
-      "value": "GP 06 01 69 D"
-    },
-    "picture": {
-      "large": "https://randomuser.me/api/portraits/women/32.jpg",
-      "medium": "https://randomuser.me/api/portraits/med/women/32.jpg",
-      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/32.jpg"
-    },
-    "nat": "GB"
-  }, {
-    "gender": "male",
-    "name": {
-      "title": "mr",
-      "first": "cesar",
-      "last": "perez"
-    },
-    "location": {
-      "street": "2302 calle de pedro bosch",
-      "city": "guadalajara",
-      "state": "galicia",
-      "postcode": 68195
-    },
-    "email": "cesar.perez@example.com",
-    "login": {
-      "username": "greenleopard687",
-      "password": "jones",
-      "salt": "CWerLXaX",
-      "md5": "a14a889a2645fe0c7b4c2881ff74a3ac",
-      "sha1": "3a90c5d7e3b97654edacbaa32fff0e5d66a1e075",
-      "sha256": "454243c174cb5a17ca2b2f312e215d716193e33a271c9e40e966b8079941d03d"
-    },
-    "registered": 1212798030,
-    "dob": 1107248310,
-    "phone": "964-590-934",
-    "cell": "677-130-637",
-    "id": {
-      "name": "DNI",
-      "value": "66663610-T"
-    },
-    "picture": {
-      "large": "https://randomuser.me/api/portraits/men/49.jpg",
-      "medium": "https://randomuser.me/api/portraits/med/men/49.jpg",
-      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/49.jpg"
-    },
-    "nat": "ES"
-  }, {
-    "gender": "male",
-    "name": {
-      "title": "mr",
-      "first": "Алексей",
-      "last": "mayer"
-    },
-    "location": {
-      "street": "3859 kastanienweg",
-      "city": "bottrop",
-      "state": "hessen",
-      "postcode": 47642
-    },
-    "email": "hendrik.mayer@example.com",
-    "login": {
-      "username": "browndog307",
-      "password": "swinging",
-      "salt": "aXfUUkYe",
-      "md5": "1b5e3675f35be4013f0243928791297e",
-      "sha1": "85e8596bf4f851b321ca9193630b942fa932e39a",
-      "sha256": "6c586e95e84f79bf7c0550b87422dd13cf2a2fbb41eefa34c3994c715c31324f"
-    },
-    "registered": 973953776,
-    "dob": 1090546402,
-    "phone": "0527-4475986",
-    "cell": "0178-3677116",
-    "id": {
-      "name": "",
-      "value": null
-    },
-    "picture": {
-      "large": "https://randomuser.me/api/portraits/men/35.jpg",
-      "medium": "https://randomuser.me/api/portraits/med/men/35.jpg",
-      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/35.jpg"
-    },
-    "nat": "DE"
-  }, {
-    "gender": "male",
-    "name": {
-      "title": "mr",
-      "first": "Гоша",
-      "last": "Яровой"
-    },
-    "location": {
-      "street": "1211 kleine singel",
-      "city": "maasgouw",
-      "state": "gelderland",
-      "postcode": 21073
-    },
-    "email": "falco.braber@example.com",
-    "login": {
-      "username": "redwolf795",
-      "password": "bobbob",
-      "salt": "MrIClG3I",
-      "md5": "6d5e7a6d74b0bb55456dca8f127eda5b",
-      "sha1": "c8745c5ab30a7640f46ed5274c3709867c737da2",
-      "sha256": "cc642e0943c2d08cce4e277af78e603887a1e556811e7fdbe6aa63884a0867a6"
-    },
-    "registered": 1199243380,
-    "dob": 23327214,
-    "phone": "(832)-438-2274",
-    "cell": "(967)-344-9155",
-    "id": {
-      "name": "BSN",
-      "value": "05949551"
-    },
-    "picture": {
-      "large": "https://randomuser.me/api/portraits/men/7.jpg",
-      "medium": "https://randomuser.me/api/portraits/med/men/7.jpg",
-      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/7.jpg"
-    },
-    "nat": "NL"
-  }],
+      "title": "Получайте баллы и подарки",
+      "subtitle": "Весь октябрь",
+      "img":  "https://tdstroitel.ru/images/companies/1/magazin/photo/08-svet-650px-compressed.png",
+      "description_1": "Все люстры - 15% дарим баллами",
+      "description_2": "Электрические теплый пол Raychem - 15% дарим баллами"
+  },
+    {
+      "title": "Общестроительные материалы",
+      "subtitle": "Весь ноябрь",
+      "img":  "https://tdstroitel.ru/images/companies/1/magazin/photo/stroyka-650px.png",
+      "description_1": "Купи 6 мешков раствора Ceresit CN 175 25 кг - 7-й мешок дарим",
+      "description_2": "Купи 5 мешков шпаклевки Akryl Putz Start 20 кг - 6-й мешок дарим"
+    }
+],
   "info": {
     "seed": "95191c57151c5da0",
     "results": 4,

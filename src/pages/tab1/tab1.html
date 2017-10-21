@@ -16,20 +16,23 @@
 
 <ion-content padding class="news">
 
-  <!-- Test -->
-  <ion-card *ngFor="let film of (films | async)?.results" (click)="openDetails(film)">
+  <!-- HTTP -->
+  <ion-card *ngFor="let promo of (infoblocks | async)?.results" >
+  <!-- (click)="openDetails(promo)" --> 
+
     <ion-item>
       <ion-avatar item-start>
         <img src="assets/img/icon.png">
       </ion-avatar>
-      <h2>{{ film.name.first }}</h2>
-      <h3>{{ film.name.last }}</h3>
+      <h2>{{ promo.title }}</h2>
+      <h3>{{ promo.subtitle }}</h3>
     </ion-item>
 
-    <img src="assets/img/001.png" >
+    <img src="{{promo.img}}">
 
     <ion-card-content>
-      <p>Наш основной приоритет — удовлетворенность покупателей, поэтому мы предлагаем нашим постоянным клиентам возможность получить особые привилегии: более выгодные условия покупки товаров и получения сервисного обслуживания. Мы считаем, что наши клиентские программы помогут Вам более эффективно распоряжаться денежными средствами и экономить время.</p>
+      <p>{{ promo.description_1 }}</p>
+      <p>{{ promo.description_2 }}</p>
     </ion-card-content>
 
   </ion-card>
