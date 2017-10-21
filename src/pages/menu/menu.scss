@@ -63,10 +63,13 @@ ion-header .item-md h1 {
      font-weight: 600;
    }
    button {
-     height: 2em;
+     height: 3em;
    }
    .item {
      color: $primary; // height: 2em;
+   }
+   .item-md {
+     margin-left: 16px;
    }
    .item-md.item-block .item-inner {
      padding-right: 8px;
@@ -88,7 +91,7 @@ ion-header .item-md h1 {
    }
    ion-label h2 {
      margin: 0px;
-     font-size: 1.4rem;
+     font-size: 1.6rem;
      font-weight: 600;
    }
    img {
