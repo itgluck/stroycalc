@@ -1,8 +1,30 @@
 <ion-menu [content]="content">
 
-  <ion-header style="text-align:center;">
-    <img menuClose src="assets/img/logo.png" class='logo'>
-    <br><a href="mailto:it.gluck@ya.ru">Demo версия от 15.10.17</a>
+  <ion-header >
+    <!-- <ion-list> -->
+      <!-- <ion-avatar > -->
+      <img class="callme" (click)="callMe('tel:+74012777239')" menuClose src="assets/img/call.png">
+    <!-- </ion-avatar> -->
+      <div ion-item style="text-align:center; background: linear-gradient(to bottom, #780001, #991415);">
+        <img menuClose src="assets/img/logo_w.png" class='logo'>
+      </div>
+      <ion-item>
+
+        <h2>Контакт-центер</h2>
+        <p>ежедневно с 8:00 до 20:00 </p>
+        
+        <h1 item-end>777-239</h1>
+      </ion-item>
+      <!-- </ion-list> -->
+      <!--
+      <ion-fab right top>
+          <button ion-fab mini>
+
+        <ion-icon name="call" ion-fab item-right ></ion-icon>
+        </button>
+        
+      </ion-fab> -->
+    <!-- <br><a href="mailto:it.gluck@ya.ru">Demo версия от 15.10.17</a> -->
   </ion-header>
 
   <ion-content class="mainMenu">
@@ -15,7 +37,6 @@
       <!-- My button -->
       <!-- <button ion-item onclick="window.open('geo: 54.7074,20.5084?z=11', '_system', 'location=yes'); return false;">
     <ion-icon name="pin" item-left></ion-icon><h2>Контакты</h2></button> -->
-
       <button ion-item onclick="window.open('https://tdstroitel.ru/'); return false;">
         <ion-icon name="globe" item-left></ion-icon>
         <h2>Офицальный сайт</h2>
@@ -27,10 +48,9 @@
     </ion-list>
   </ion-content>
 
-  <ion-footer>
+  <!-- <ion-footer>
 
-    <img (click)="callMe('tel:+74012777239')" menuClose src="assets/img/call_me.png">
-  </ion-footer>
+  </ion-footer> -->
 
 
 </ion-menu>

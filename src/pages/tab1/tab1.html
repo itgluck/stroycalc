@@ -16,6 +16,25 @@
 
 <ion-content padding class="news">
 
+  <!-- Test -->
+  <ion-card *ngFor="let film of (films | async)?.results" (click)="openDetails(film)">
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/img/icon.png">
+      </ion-avatar>
+      <h2>{{ film.name.first }}</h2>
+      <h3>{{ film.name.last }}</h3>
+    </ion-item>
+
+    <img src="assets/img/001.png" >
+
+    <ion-card-content>
+      <p>Наш основной приоритет — удовлетворенность покупателей, поэтому мы предлагаем нашим постоянным клиентам возможность получить особые привилегии: более выгодные условия покупки товаров и получения сервисного обслуживания. Мы считаем, что наши клиентские программы помогут Вам более эффективно распоряжаться денежными средствами и экономить время.</p>
+    </ion-card-content>
+
+  </ion-card>
+  
+
   <!-- Card -->
   <ion-card>
     <ion-item>

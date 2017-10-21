@@ -6,6 +6,7 @@ import {SocialSharing} from '@ionic-native/social-sharing';
 import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
+import { HttpModule } from '@angular/http';
 import { IntroPage } from '../pages/intro/intro'
 // import { MenuPage } from '../pages/menu/menu';
 
@@ -18,6 +19,7 @@ import { IntroPage } from '../pages/intro/intro'
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
